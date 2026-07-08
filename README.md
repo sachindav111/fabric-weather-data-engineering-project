@@ -14,6 +14,181 @@ The solution is designed as an enterprise-ready architecture suitable for produc
 
 ---
 
+# 🚀 Advanced Microsoft Fabric Features
+
+This project demonstrates enterprise-grade Microsoft Fabric capabilities beyond standard ETL development.
+
+---
+
+# 🔥 Custom Spark Pool
+
+The notebooks execute on a dedicated **Custom Spark Pool** rather than the default runtime.
+
+Benefits:
+
+* Faster notebook startup
+* Better workload isolation
+* Improved Spark performance
+* Optimized resource utilization
+* Enterprise scalability
+
+---
+
+# ⚙️ Custom Spark Environment
+
+A dedicated **Custom Spark Environment** is used to provide a consistent runtime across all notebooks.
+
+### Features
+
+* Centralized Python package management
+* Consistent runtime across Development, Test, and Production
+* Reusable notebook environment
+* Simplified dependency management
+* Enterprise-ready package governance
+
+Example libraries used:
+
+* geopy
+
+---
+
+# ⚡ High Concurrency
+
+High Concurrency is enabled to improve Spark notebook execution.
+
+Benefits
+
+* Multiple notebooks share Spark sessions
+* Reduced cluster startup time
+* Lower execution latency
+* Better resource utilization
+* Reduced execution cost
+
+---
+
+# 🎯 Pipeline Parameters
+
+The Microsoft Fabric Pipeline is fully parameterized for reusable deployments.
+
+Parameters include
+
+| Parameter     | Description                |
+| ------------- | -------------------------- |
+| Latitude      | Weather location latitude  |
+| Longitude     | Weather location longitude |
+| StartDate     | API extraction start date  |
+| EndDate       | API extraction end date    |
+| PipelineRunID | Audit tracking             |
+
+This enables the same notebooks to execute for multiple locations without modifying code.
+
+---
+
+⏰ Pipeline Scheduling
+
+The Microsoft Fabric Data Pipeline is designed to support automated and event-driven execution, enabling reliable and production-ready data ingestion.
+
+---
+
+# 🚀 Deployment Pipeline (CI/CD)
+
+The solution supports Microsoft Fabric Deployment Pipelines.
+
+Deployment Flow
+
+```
+Development
+
+↓
+
+Testing
+
+↓
+
+Production
+```
+
+Artifacts promoted through Deployment Pipeline
+
+* Lakehouse
+* Warehouse
+* Spark Notebooks
+* Data Factory Pipelines
+* Semantic Model
+* Power BI Reports
+
+Environment-specific settings are controlled using Pipeline Parameters.
+
+---
+
+# ⚡ Performance Optimization
+
+Several optimization techniques have been implemented.
+
+✔ Incremental Loading
+
+✔ Watermark Processing
+
+✔ Delta Lake Storage
+
+✔ Delta MERGE Operations
+
+✔ Business Key Deduplication
+
+✔ Schema Evolution
+
+✔ Reverse Geocoder Optimization
+
+✔ Spark Caching
+
+✔ High Concurrency
+
+✔ Custom Spark Pool
+
+✔ Delta Lake Optimized Storage
+
+---
+
+# 📊 Monitoring Hub
+
+Microsoft Fabric Monitoring Hub can be used to monitor
+
+* Notebook executions
+* Pipeline executions
+* Spark job history
+* Failed activities
+* Execution duration
+* Compute utilization
+* Workspace activity
+
+---
+
+# 💼 Why This Project?
+
+This project demonstrates an enterprise-grade Microsoft Fabric implementation that covers
+
+* End-to-End ETL Pipeline
+* Medallion Architecture
+* Incremental Data Loading
+* Data Quality Framework
+* Delta Lake
+* Spark Optimization
+* Custom Spark Environment
+* Custom Spark Pool
+* High Concurrency
+* OneLake
+* Deployment Pipelines
+* CI/CD Ready Architecture
+* Audit Logging
+* Monitoring
+* Dimensional Modeling
+* Star Schema
+* Semantic Modeling
+* Power BI Reporting
+
+This repository is designed to showcase practical Microsoft Fabric Data Engineering skills expected in production environments.
+
+
 # 🏗️ Medallion Architecture
 
 ## Bronze Layer
@@ -453,25 +628,17 @@ Possible visuals include:
 fabric-weather-data-engineering-project
 
 │
-├── Bronze Notebook.ipynb
-├── Silver Notebook.ipynb
-├── Gold Notebook.ipynb
+├── incremental copy notebook.ipynb
+├── silver layer notebook.ipynb
+├── Gold layer notebook.ipynb
 │
 ├── Pipeline
 │
-├── SQL Scripts
+├── SQL_Scripts
 │
-├── Audit Tables
+├── Workspace_Specifications
 │
-├── Sample Data
-│
-├── Power BI Dashboard
-│
-├── Images
-│
-│     ├── Architecture.png
-│     ├── Pipeline.png
-│     ├── Dashboard.png
+├── Power_BI_Dashboard
 │
 └── README.md
 ```
