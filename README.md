@@ -46,7 +46,7 @@ A dedicated **Custom Spark Environment** is used to provide a consistent runtime
 * Reusable notebook environment
 * Simplified dependency management
 * Enterprise-ready package governance
-
+  ![image alt](https://github.com/sachindav111/fabric-weather-data-engineering-project/blob/1004b82285915affdc5f4808b073c40a0e1a8a86/Workspace_Specifications/Custom%20Environment.png)
 Example libraries used:
 
 * geopy
