@@ -762,7 +762,7 @@ fabric-weather-data-engineering-project
 ├── silver layer notebook.ipynb
 ├── Gold layer notebook.ipynb
 │
-├── Pipeline images
+├── Pipeline
 │
 ├── SQL_Scripts
 │
