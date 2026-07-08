@@ -31,6 +31,7 @@ Benefits:
 * Improved Spark performance
 * Optimized resource utilization
 * Enterprise scalability
+  
 ![image alt](https://github.com/sachindav111/fabric-weather-data-engineering-project/blob/d9383c6eb57b915e45cd76877fa5753dcc5cb828/Pipeline/Custom%20Pool.png)
 ---
 
