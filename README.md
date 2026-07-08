@@ -16,7 +16,7 @@ The solution is designed as an enterprise-ready architecture suitable for produc
 
 # 🚀 Advanced Microsoft Fabric Features
 
-This project demonstrates enterprise-grade Microsoft Fabric capabilities beyond standard ETL development.
+This project demonstrates enterprise-grade Microsoft Fabric capabilities in standard ETL development.
 
 ---
 
@@ -744,6 +744,11 @@ Possible visuals include:
 * Pipeline Execution Status
 * Notebook Execution Time
 * Incremental Load Statistics
+
+![image alt](https://github.com/sachindav111/fabric-weather-data-engineering-project/blob/48347bb6b1e53cb48dd341c7c2b4942cde0de072/Power_BI_Dashboard/Audit%20Overview%20from%20audit%20dashboard.png)
+
+
+![image alt](https://github.com/sachindav111/fabric-weather-data-engineering-project/blob/48347bb6b1e53cb48dd341c7c2b4942cde0de072/Power_BI_Dashboard/Notebook%20Audit%20from%20audit%20Dashboard.png)
 
 ---
 
