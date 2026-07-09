@@ -703,6 +703,26 @@ Pipeline handles
 
 ---
 
+## 🔗 OneLake Shortcut Architecture
+
+To build a scalable and production-ready analytics platform, this project leverages **Microsoft Fabric OneLake Shortcuts** instead of physically copying audit data between storage layers.
+
+Rather than storing duplicate audit tables inside the Lakehouse, a **OneLake Shortcut** connects the Lakehouse directly to the **Fabric Warehouse**, where all operational audit tables are maintained.
+
+This architecture enables a **single source of truth** while allowing notebooks, semantic models, and Power BI reports to consume audit data seamlessly.
+
+### ✨ Why OneLake Shortcuts?
+
+- 🚀 Eliminates data duplication across storage layers.
+- 📦 Reduces storage costs by avoiding redundant copies.
+- ⚡ Enables real-time access to Warehouse audit tables from the Lakehouse.
+- 🔄 Simplifies data governance with a single authoritative source.
+- 🏗️ Demonstrates Microsoft Fabric's unified OneLake architecture.
+- 📊 Allows business data and operational audit data to be analyzed together without ETL duplication.
+- 🔒 Improves maintainability and enterprise scalability.
+
+![image alt](https://github.com/sachindav111/fabric-weather-data-engineering-project/blob/056bfd227908287958834199a36e4e988992beca/SQL_Scripts/Shoucut%20for%20warehouse%20table.png)
+
 # ⚡ Microsoft Fabric Features Highlighted
 
 This project showcases several Microsoft Fabric capabilities:
